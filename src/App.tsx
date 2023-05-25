@@ -2,7 +2,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
 // Pages
-import { AfterSimpleIndex, CandleIndex, CountDownIndex, HomeIndex, SimpleIndex } from './pages'
+import { AfterSimpleIndex, CandleIndex, CountDownIndex, SimpleIndex } from './pages'
 
 const router = createBrowserRouter([
   // {
