@@ -24,7 +24,23 @@ const images = [
   {
     label: 'ayang dalam selimut',
     src: 'src/assets/images/domba dalam selimut.png'
-  }
+  },
+  {
+    label: 'ayang mirip ibu evi',
+    src: 'src/assets/images/emak.jpg'
+  },
+  {
+    label: 'ayang mata dajal',
+    src: 'src/assets/images/mata.png'
+  },
+  {
+    label: 'salat serem',
+    src: 'src/assets/images/pocong.png'
+  },
+  {
+    label: 'ayang ga punya muka',
+    src: 'src/assets/images/tanpa muka.png'
+  },
 ]
 
 const AfterSimpleIndex = () => {  
