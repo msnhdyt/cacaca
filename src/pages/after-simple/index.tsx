@@ -15,7 +15,7 @@ const zoomOutProperties = {
 const images = [
   {
     label: 'ayang bunglon',
-    src: 'src/assets/images/ayang bunglon.png'
+    src: '../../assets/images/ayang bunglon.png'
   },
   {
     label: 'ayang ee',
