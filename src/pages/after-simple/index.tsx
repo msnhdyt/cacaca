@@ -15,31 +15,31 @@ const zoomOutProperties = {
 const images = [
   {
     label: 'ayang bunglon',
-    src: 'src/assets/images/ayang bunglon.png'
+    src: '/src/assets/images/ayang bunglon.png'
   },
   {
     label: 'ayang ee',
-    src: 'src/assets/images/ayang lagi ee.jpg'
+    src: '/src/assets/images/ayang lagi ee.jpg'
   },
   {
     label: 'ayang dalam selimut',
-    src: 'src/assets/images/domba dalam selimut.png'
+    src: '/src/assets/images/domba dalam selimut.png'
   },
   {
     label: 'ayang mirip ibu evi',
-    src: 'src/assets/images/emak.jpg'
+    src: '/src/assets/images/emak.jpg'
   },
   {
     label: 'ayang mata dajal',
-    src: 'src/assets/images/mata.png'
+    src: '/src/assets/images/mata.png'
   },
   {
     label: 'salat serem',
-    src: 'src/assets/images/pocong.png'
+    src: '/src/assets/images/pocong.png'
   },
   {
     label: 'ayang ga punya muka',
-    src: 'src/assets/images/tanpa muka.png'
+    src: '/src/assets/images/tanpa muka.png'
   },
 ]
 
@@ -83,7 +83,7 @@ const AfterSimpleIndex = () => {
       </div>
     </div>
   }
-  <ReactHowler src={'src/assets/audios/Happy_Birthday_Kids_Songs.mp3'} 
+  <ReactHowler src={'/src/assets/audios/Happy_Birthday_Kids_Songs.mp3'} 
     playing={isStart} 
     volume={0.2}
     onEnd={onEnd} />
