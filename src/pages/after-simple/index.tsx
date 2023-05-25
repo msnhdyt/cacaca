@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Zoom } from 'react-slideshow-image'
 import ReactHowler from 'react-howler'
 import { useNavigate } from 'react-router-dom'
+import ayangBunglon from '../../assets/images/ayang bunglon.png'
 
 const zoomOutProperties = {
   duration: 3000,
@@ -15,7 +16,7 @@ const zoomOutProperties = {
 const images = [
   {
     label: 'ayang bunglon',
-    src: '../../assets/images/ayang bunglon.png'
+    src: ayangBunglon
   },
   {
     label: 'ayang ee',
