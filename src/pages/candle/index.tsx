@@ -158,7 +158,7 @@ const CandleIndex = () => {
       </div>
       <div className="w-1/2 flex flex-row justify-center"> 
         {
-          isCandleOn &&  <img src="./src/assets/giphy-candle.webp" alt="" className="" />
+          isCandleOn &&  <img src="/src/assets/giphy-candle.webp" alt="" className="" />
         }
         {
           show[showIndex].action && <img className='absolute left-96 top-52' width={100} src="./src/assets/images/tiup.png" alt="" />
@@ -166,14 +166,14 @@ const CandleIndex = () => {
       </div>
     </div>
     <button onClick={() => setIsAudioPlaying(!isAudioPlaying)} className='absolute bottom-0 text-slate-700'>{isAudioPlaying ? 'pause' : 'play'}</button>
-    <ReactHowler src={'src/assets/audios/Backsound Puisi.mp3'} 
+    <ReactHowler src={'/src/assets/audios/Backsound Puisi.mp3'} 
       playing={isAudioPlaying} 
       volume={0.2} 
       loop={true} />
-    <ReactHowler src={'src/assets/audios/1.mp3'} 
+    <ReactHowler src={'/src/assets/audios/1.mp3'} 
       playing={poetryIndex === 1} 
       volume={0.5} />
-    <ReactHowler src={'src/assets/audios/2.mp3'} 
+    <ReactHowler src={'/src/assets/audios/2.mp3'} 
       playing={poetryIndex === 2} 
       volume={0.5} />
   </>
