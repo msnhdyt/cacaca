@@ -12,8 +12,10 @@ import { useSound } from 'use-sound'
 
 import { useNavigate } from 'react-router-dom'
 
+import sound from '../../assets/audios/10-second-sound.mp3'
+
 const CountDownIndex = () => {
-  const [ playSound ] = useSound('src/assets/audios/10-second-sound.mp3', {
+  const [ playSound ] = useSound(sound, {
     volume: 0.2
   })
   const navigate = useNavigate()
@@ -63,7 +65,7 @@ const CountDownIndex = () => {
     </>
   }
   return <>
-    <div className="w-full h-screen bg-[url('./src/assets/bg-birthday.jpg')] bg-cover bg-center">
+    <div className="w-full h-screen bg-[url('/src/assets/bg-birthday.jpg')] bg-cover bg-center">
       <div className='h-full flex flex-row justify-center items-center '>
         <Countdown 
           date={new Date('2023-05-26T00:00:00')}
